@@ -1,0 +1,16 @@
+@import "_base";
+
+@include sticky-footer(54px, "#body", "#body-footer-pusher", "#body-footer");
+
+.full-width {
+  .grid-container {
+    @include grid-container;
+  }
+}
+
+
+
+#body-footer {
+  font-size: 90%;
+  border-top: 1px dotted #fff;
+}

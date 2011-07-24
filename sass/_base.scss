@@ -1,0 +1,33 @@
+$ninesixty-columns: 9;
+//$header-font: 'Oswald', sans-serif !important;
+
+$header-font: 'Pacifico',cursive !important;
+$text-font: Arial,Verdana,"Bitsream Vera Sans",sans-serif !important;
+
+
+
+@import "compass/css3";
+@import "compass/reset";
+@import "compass/layout/sticky-footer";
+@import "960/grid";
+
+
+
+
+
+@mixin header-font($size: 48px) {
+  display: block;
+  font: normal 400 #{$size}/1.25 $header-font;
+  margin-bottom: 1.5em;
+}
+
+@mixin text-font($size: 14px) {
+  font: normal 500 #{$size}/1.25 $text-font;
+}
+
+@mixin grid-vertical-margin() {
+  margin: {
+    top: ($ninesixty-gutter-width / 2);
+    bottom: ($ninesixty-gutter-width / 2);
+  }
+}

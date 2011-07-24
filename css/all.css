@@ -1,0 +1,145 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_0\.11\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000317}}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_0\.11\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000320}}
+body {
+  line-height: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_0\.11\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000322}}
+ol, ul {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_0\.11\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000324}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_0\.11\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000326}}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_0\.11\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000328}}
+q, blockquote {
+  quotes: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_0\.11\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003101}}
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_0\.11\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000330}}
+a img {
+  border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_0\.11\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003115}}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\000035}}
+body {
+  background-color: #fff;
+  color: #000;
+  font: normal 500 14px/1.25 Arial, Verdana, "Bitsream Vera Sans", sans-serif !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\0000311}}
+h1, h2, h3 {
+  display: block;
+  font: normal 400 48px/1.25 "Pacifico", cursive !important;
+  margin-bottom: 1.5em;
+  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\0000317}}
+a:hover, a:active, a:visited {
+  color: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\0000323}}
+nav ul, nav li {
+  display: inline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\0000334}}
+.page {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 300px;
+  background-color: #000;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  height: 220px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\0000348}}
+  .page header p {
+    font-size: 125%;
+    font-style: italic;
+    width: 75%;
+    margin-top: 10px;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 1px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\0000357}}
+  .page section {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\0000361}}
+  .page aside {
+    overflow: hidden;
+    height: 0px;
+    font-size: 0.9em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\0000369}}
+.content {
+  height: 0px;
+  overflow: hidden;
+  -moz-transition-property: all;
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\0000378}}
+.drupal-licence-module #drupal-licence-module aside, .drupal-licence-module #drupal-licence-module .content {
+  height: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\0000391}}
+.inside {
+  padding: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\00003100}}
+.category-dowa {
+  background-color: #1ad4ee; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\00003105}}
+.category-snapi {
+  background-color: #a2ee1a; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\00003111}}
+.category-licence {
+  background-color: #ee1a7d; }

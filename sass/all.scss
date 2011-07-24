@@ -1,0 +1,116 @@
+@import "_base";
+//@include global-reset;
+
+
+body {
+  background-color: #fff;
+  color: #000;
+  @include text-font;
+}
+
+h1, h2, h3 {
+  @include header-font;
+  @include text-shadow(rgba(0, 0, 0, 0.5), 1px, 1px, 1px);
+}
+
+a {
+  &:hover, &:active, &:visited {
+    color: inherit;
+  }
+}
+
+nav {
+  ul, li {
+    display: inline;
+  }
+  ul {
+    
+  }
+  li {
+    
+  }
+}
+
+.page {
+  @include grid(3);
+  background-color: #000;
+  color: #fff;
+  @include grid-vertical-margin;
+  @include border-radius($ninesixty-gutter-width / 2);
+  
+  height: 220px;
+  
+  header, section, aside {
+    
+  }
+  
+  header {
+    p {
+      font-size: 125%;
+      font-style: italic;
+      width: 75%;
+      margin-top: ($ninesixty-gutter-width / 2);
+      @include single-text-shadow(rgba(0, 0, 0, 0.5), 0, 1px, 0);
+    }
+  }
+  
+  section {
+    @include grid-vertical-margin;
+  }
+  
+  aside {
+    overflow: hidden;
+    height: 0px;
+    font-size: 0.9em;
+  }
+}
+
+
+.content {
+  height: 0px;
+  overflow: hidden;
+  @include transition();
+}
+
+
+.drupal-licence-module {
+  #drupal-licence-module {
+    aside, .content {
+      height: auto;
+    }
+  }
+}
+.drupal-filefield-licence-module {}
+.drupal-hashbang-module {}
+.drupal-dowa-module {}
+.drupal-hapi-module {}
+.drupal-snapi-module {}
+
+
+
+.inside {
+  padding: ($ninesixty-gutter-width / 2);
+}
+
+
+
+
+
+$base-color: #1AD4EE;
+.category-dowa {
+  background-color: $base-color;
+}
+
+$base-color: #A2EE1A;
+.category-snapi {
+  background-color: $base-color;
+}
+
+
+$base-color: #EE1A7D;
+.category-licence {
+  background-color: $base-color;
+}
+
+
+$base-color: #EEDC1A;

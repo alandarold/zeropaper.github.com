@@ -1,0 +1,73 @@
+/* 960 Grid System ~ Text CSS.
+ * Learn more ~ http://960.gs/
+ * *
+ * Licensed under GPL and MIT. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_extensions\/compass-960-plugin-0\.10\.0\/stylesheets\/960\/_text\.sass}line{font-family:\000034}}
+body {
+  font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_extensions\/compass-960-plugin-0\.10\.0\/stylesheets\/960\/_text\.sass}line{font-family:\000036}}
+a:focus {
+  outline: 1px dotted invert; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_extensions\/compass-960-plugin-0\.10\.0\/stylesheets\/960\/_text\.sass}line{font-family:\000038}}
+hr {
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: 1px 0 0;
+  clear: both;
+  height: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_extensions\/compass-960-plugin-0\.10\.0\/stylesheets\/960\/_text\.sass}line{font-family:\0000314}}
+h1 {
+  font-size: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_extensions\/compass-960-plugin-0\.10\.0\/stylesheets\/960\/_text\.sass}line{font-family:\0000316}}
+h2 {
+  font-size: 23px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_extensions\/compass-960-plugin-0\.10\.0\/stylesheets\/960\/_text\.sass}line{font-family:\0000318}}
+h3 {
+  font-size: 21px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_extensions\/compass-960-plugin-0\.10\.0\/stylesheets\/960\/_text\.sass}line{font-family:\0000320}}
+h4 {
+  font-size: 19px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_extensions\/compass-960-plugin-0\.10\.0\/stylesheets\/960\/_text\.sass}line{font-family:\0000322}}
+h5 {
+  font-size: 17px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_extensions\/compass-960-plugin-0\.10\.0\/stylesheets\/960\/_text\.sass}line{font-family:\0000324}}
+h6 {
+  font-size: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_extensions\/compass-960-plugin-0\.10\.0\/stylesheets\/960\/_text\.sass}line{font-family:\0000326}}
+ol {
+  list-style: decimal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_extensions\/compass-960-plugin-0\.10\.0\/stylesheets\/960\/_text\.sass}line{font-family:\0000328}}
+ul {
+  list-style: square; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_extensions\/compass-960-plugin-0\.10\.0\/stylesheets\/960\/_text\.sass}line{font-family:\0000330}}
+li {
+  margin-left: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/Applications\/compass\.app\/lib\/ruby\/compass_extensions\/compass-960-plugin-0\.10\.0\/stylesheets\/960\/_text\.sass}line{font-family:\0000332}}
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset {
+  margin-bottom: 20px; }
