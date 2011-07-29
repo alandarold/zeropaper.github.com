@@ -59,14 +59,14 @@ footer, header, hgroup, menu, nav, section {
 body {
   background-color: #fff;
   color: #000;
-  font: normal 500 14px/1.25 Arial, Verdana, "Bitsream Vera Sans", sans-serif !important; }
+  font: normal 500 14px/1.25 "Trebuchet MS", Verdana, Helvetica, sans-serif !important; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\0000311}}
 h1, h2, h3 {
   display: block;
   font: normal 400 48px/1.25 "Pacifico", cursive !important;
   margin-bottom: 1.5em;
-  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px; }
+  text-shadow: rgba(0, 0, 0, 0) 1px 1px 1px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\0000317}}
 a:hover, a:active, a:visited {
@@ -100,7 +100,7 @@ nav ul, nav li {
     font-style: italic;
     width: 75%;
     margin-top: 10px;
-    text-shadow: rgba(0, 0, 0, 0.5) 0 1px 0; }
+    text-shadow: rgba(0, 0, 0, 0) 0 1px 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/robert\/SparkleShare\/zeropaper\.github\/sass\/all\.scss}line{font-family:\0000357}}
   .page section {
     margin-top: 10px;
